@@ -14,7 +14,7 @@ using namespace std;
 class program{
 public:
     unsigned int my_register[320]={0u};
-    unsigned int my_memory[50000000]={0u};
+    unsigned int my_memory[500000]={0u};
     unsigned int intro_num=0u;
     unsigned int end_index=0u;
     unsigned int program_count=0u;
