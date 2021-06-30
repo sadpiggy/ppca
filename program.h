@@ -30,7 +30,7 @@ public:
        while (cin>>input_token)
        {
 
-           if (input_token[0]=='#')break;//仅用于调试代码
+           if (input_token[0]=='#'||input_token[0]==EOF)break;//仅用于调试代码
 
            if (input_token[0]=='@')
            {
